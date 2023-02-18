@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - print the alphabet
- * Returns: Always 0
+ * main - Prints the alphabet.
+ * Description: using the main function
+ * Return: Always 0
  */
 int main(void)
 {
-	char lc;
+	char c;
 
-	for (lc = 'a'; lc <= 'z'; lc++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(lc);
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
