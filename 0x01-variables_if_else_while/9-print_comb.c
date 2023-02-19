@@ -6,6 +6,7 @@
  * main - Entry point
  * Return: Always 0 (Success)
  */
+
 int main(void)
 
 {
@@ -17,7 +18,7 @@ int main(void)
 	if (d != '9')
 	{
 	putchar(',');
-	putchar('');
+	putchar(' ');
 	}
 	}
 	putchar('\n');
