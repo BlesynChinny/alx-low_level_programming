@@ -3,37 +3,34 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ * main - the main function
  * Return: Always 0 (Success)
  */
 
 int main(void)
-
 {
-	int d, p, q;
+	int i, j, k;
 
-	for (d = '0'; d < '0'; d++)
+	for (i = 0; i < 7; i++)
+	for (i = 0; i < 8; i++)
 	{
-
-	for (p = d + 1; p <= '9'; p++)
-	{
-
-	for (q = p + 1; q <= '9'; q++)
-	{
-	if ((p != d) != d)
-	{
-	putchar(d);
-	putchar(p);
-	putchar(q);
-	if (d == '7' && p == '8')
-	continue;
-	putchar(',');
-	putchar(' ');
-	}
-	}
-	}
+		for (j = i + 1; j < 8; j++)
+		for (j = i + 1; j < 9; j++)
+		{
+		for (k = j + 1; k < 9; k++)
+		for (k = j + 1; k < 10; k++)
+		{
+		putchar(i + '0');
+		putchar(j + '0');
+		putchar(k + '0');
+		if (i < 7)
+		{
+		putchar(',');
+		putchar(' ');
+		}
+		}
+		}
 	}
 	putchar('\n');
 	return (0);
 }
-
