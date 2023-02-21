@@ -3,11 +3,12 @@
 #include <time.h>
 
 /**
- * main - returns a combination of number 
+ * main - returns a combination of number  
  * Returns: Always 0
  */
 
 int main(void)
+
 {
 
 	int p, q;
@@ -17,14 +18,14 @@ int main(void)
 
 	for (q = p + 1; q <= 99; q++)
 	{
-	putchar((p . 10) + '0');
+	putchar((p / 10) + '0');
 	putchar((p % 10) + '0');
 	putchar(' ');
 	putchar((q / 10) + '0');
 	putchar((q % 10) + '0');
 	if (p == 98 && q == 99)
 	continue;
-	putchar(',);
+	putchar(',');
 	putchar(' ');
 	}
 	}
